@@ -1,20 +1,41 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function App() {
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { NavigationContainer } from '@react-navigation/native';
+import HomeStack from './screens/HomeStack'; 
+import Favorites from './screens/Favorites';
+import Weather from './screens/Weather';
+
+const Tab = createBottomTabNavigator();
+
+function Tabs() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Tab.Navigator
+      screenOptions={{
+        tabBarStyle: {
+          flexDirection: 'row',
+          justifyContent: 'space-around',
+          alignItems: 'center',
+          backgroundColor: '#fff',
+        },
+      }}
+    >
+      <Tab.Screen name="Inicio" options={{ headerShown: false }} >
+      {() => <HomeStack favorites={false} />}
+      </Tab.Screen>
+      <Tab.Screen name="Favoritos">
+        {() => <HomeStack favorites={true} />}
+      </Tab.Screen>
+      <Tab.Screen name="Clima" component={Weather} />
+    </Tab.Navigator>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default function App() {
+  return (
+    <NavigationContainer>
+      <Tabs />
+    </NavigationContainer>
+  );
+}

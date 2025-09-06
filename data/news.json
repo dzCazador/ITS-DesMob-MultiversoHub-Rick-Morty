@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "titulo": "Expo lanza nueva versión",
+    "descripcion": "Expo anunció mejoras en su CLI y soporte para actualizaciones OTA más rápidas.",
+    "imagen": "https://picsum.photos/id/1011/800/400",
+    "categoria": "Tecnología",
+    "fuente": "https://expo.dev",
+    "autor": "Jane Doe",
+    "fecha": "2025-08-20",
+    "extendido": "La nueva versión del CLI de Expo incluye mejoras significativas en la velocidad de compilación y una integración más fluida con las herramientas de desarrollo de terceros. La característica de actualizaciones OTA (Over-The-Air) ahora permite a los desarrolladores enviar parches y nuevas funcionalidades a las aplicaciones de sus usuarios en cuestión de minutos, sin necesidad de pasar por el proceso de revisión de las tiendas de aplicaciones."
+  },
+  {
+    "id": 2,
+    "titulo": "IA acelera descubrimientos",
+    "descripcion": "Modelos generativos impulsan productividad y nuevos flujos de trabajo en empresas.",
+    "imagen": "https://picsum.photos/id/1025/800/400",
+    "categoria": "Ciencia",
+    "fuente": "https://openai.com",
+    "autor": "John Smith",
+    "fecha": "2025-08-19",
+    "extendido": "Un reciente estudio publicado por la comunidad científica detalla cómo los modelos de inteligencia artificial generativa, como GPT-4 y DALL-E, están siendo utilizados para acelerar el proceso de investigación. Desde la síntesis de nuevas proteínas hasta la simulación de materiales, la IA está reduciendo drásticamente los plazos para el descubrimiento y la innovación en campos como la medicina, la física y la ingeniería."
+  },
+  {
+    "id": 3,
+    "titulo": "Clásico sudamericano",
+    "descripcion": "Partidazo con remontada histórica y datos curiosos para la estadística.",
+    "imagen": "https://picsum.photos/id/1005/800/400",
+    "categoria": "Deportes",
+    "fuente": "https://www.fifa.com",
+    "autor": "Alex Johnson",
+    "fecha": "2025-08-18",
+    "extendido": "El encuentro entre Argentina y Brasil terminó con un marcador de 3-2 a favor del equipo local, tras una impresionante remontada en la segunda mitad. El partido se destacó por el debut de varios jugadores jóvenes y por un gol de chilena que ya se considera un serio candidato al premio Puskas. Las estadísticas del encuentro muestran una posesión de balón igualada y un alto número de remates al arco por ambos lados, lo que demuestra la intensidad del juego."
+  }
+]
